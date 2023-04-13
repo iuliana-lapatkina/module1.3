@@ -263,7 +263,7 @@ img {
 }
 
 .about__button-text::before {
-  content: url('/img/about_button_icon.svg');
+  content: url('img/about_button_icon.svg');
   margin-right: 8px;
   display: inline-block;
   vertical-align: center;
