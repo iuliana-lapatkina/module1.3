@@ -17,8 +17,8 @@
 
 @font-face {
   font-family: 'TT Lakes';
-  src: local(''), url('../fonts/TTLakes-Regular.woff') format('woff'),
-    url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  src: local(''), url('fonts/TTLakes-Regular.woff') format('woff'),
+    url('fonts/TTLakes-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
 }
