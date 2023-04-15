@@ -33,17 +33,21 @@
 }
 
 /* common */
-* {
+html {
   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  color: var(--color-main);
 }
 
 body {
   font-family: 'TT Lakes', sans-serif;
   background-color: var(--color-background);
+  color: var(--color-main);
 }
 
 a {
