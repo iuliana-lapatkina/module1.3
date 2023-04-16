@@ -157,7 +157,7 @@ img {
 
 /* pagination */
 .pagination {
-  padding: 24px 0;
+  padding: 24px 0 7px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -204,7 +204,7 @@ img {
 .pagination-list {
   display: flex;
   flex-basis: 100%;
-  overflow: overlay;
+  overflow: scroll;
 }
 
 .pagination-list::-webkit-scrollbar {
