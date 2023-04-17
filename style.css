@@ -255,6 +255,7 @@ img {
   line-height: 18px;
   letter-spacing: 0.2px;
   flex-basis: 1;
+  white-space: pre-line;
 }
 
 .about__text--tablet {
