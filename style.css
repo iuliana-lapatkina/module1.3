@@ -289,7 +289,6 @@ img {
 }
 
 .about__image {
-  object-fit: contain;
   margin-left: -16px;
   margin-right: -16px;
   width: auto;
