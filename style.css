@@ -157,7 +157,8 @@ img {
 
 /* pagination */
 .pagination {
-  padding: 24px 0 7px 0;
+  padding: 24px 0;
+  margin-right: -16px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -202,21 +203,20 @@ img {
 }
 
 .pagination-list {
+  position: relative;
   display: flex;
   flex-basis: 100%;
   overflow: scroll;
 }
 
 .pagination-list::after {
-  content: '';
-  width: 60px;
-  height: 10%;
-  right: 0;
-  top: 50;
   position: absolute;
-  z-index: 9999;
-  pointer-events: none;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .7) 40%, #fff 70%);
+  content: '';
+  right: 0;
+  background-image: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+  width: 24px;
+  height: 100%;
+  z-index: 2;
 }
 
 .pagination-list::-webkit-scrollbar {
